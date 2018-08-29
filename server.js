@@ -39,7 +39,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         welcomeMessage: "Welcome Message!",
-        pageTitle: 'Home Page'
+        pageTitle: 'Mooie Mitzake'
     })
 });
 
